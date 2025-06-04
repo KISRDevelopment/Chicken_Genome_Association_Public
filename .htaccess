@@ -1,0 +1,15 @@
+Options All -Indexes
+
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
+
+DirectoryIndex Home.php
+
+checkspelling On
+checkcaseonly On
+
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^([^.]+)$ $1.php [NC,L]

@@ -1,0 +1,99 @@
+.myBtn{
+    background-color: #F6EFE7;
+    box-shadow: inset 0 0 0 0 #F6EFE7;
+    transition: ease-out 0.4s;
+    -webkit-transition: ease-out 0.4s;
+}
+.myBtn:hover{
+    background-color: #F6EFE7;
+    color: #F6EFE7;
+    box-shadow: inset 400px 0 0 0 #45483D;
+}
+.btn-submit{
+    max-width: 400px;
+}
+.mainBG{
+    background-color: #D4DAD6;
+}
+
+.mainTable{
+    overflow-x: scroll;
+}
+
+.mainTable th{
+    background-color: #45483D;
+    color: #F6EFE7;
+}
+
+.mainTable tr:nth-child(even){
+    background-color: #D7D9D7 !important;
+}
+
+.mainTable tr:nth-child(odd){
+    background-color: #DFDFD6 !important;
+}
+.mainHeader{
+    min-height: 8vh;
+}
+.content{
+    min-height: 85vh;
+}
+.bg-breeds{
+    background-color: #1B418C;
+    color: white;
+}
+.bg-genes{
+    background-color: #F2A516;
+}
+.bg-snps{
+    background-color: #25B8D9;
+}
+
+.tableBreeds th{
+    background-color: #1B418C;
+    color: white;
+}
+
+.tableGenes th{
+    background-color: #F2A516;
+    color: black;
+}
+
+.tableSnps th{
+    background-color: #25B8D9;
+    color: black;
+}
+
+.bgDetailE{
+    background-color: #D7D9D7;
+}
+
+.bgDetailO{
+    background-color: #DFDFD6;
+}
+
+.myBadge{
+    width: fit-content;
+}
+
+a {
+    text-decoration: none;
+}
+
+tbody tr td{
+    padding: 1px !important;
+}
+
+tbody tr td::first-letter{
+    text-transform: capitalize;
+}
+
+.breed-desc-table tr td:first-child{
+    font-weight: bold;
+}
+.breed-desc-table tr td{
+    vertical-align: middle;
+}
+.breed-desc-table{
+    padding-left: 29px;
+}
